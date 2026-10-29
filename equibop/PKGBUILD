@@ -21,29 +21,6 @@ conflicts=('equibop-bin')
 source=("$url/archive/refs/tags/v${pkgver}.tar.gz"
         'equibop.desktop'
         'equibop.sh')
-sha256sums=('# Maintainer: creations
-pkgname=equibop
-_pkgname=Equibop
-pkgdesc="A custom Discord desktop app with Equicord pre-installed"
-pkgver=3.3.2
-# Reminder for devs: don't forget to update the electron version on equibop.sh
-pkgrel=2
-electron=electron43
-arch=('x86_64' 'aarch64')
-url="https://github.com/Equicord/Equibop"
-license=('GPL-3.0-or-later')
-depends=("${electron}")
-makedepends=('bun' 'cmake' 'gcc' 'nodejs' 'npm')
-optdepends=(
-  'libnotify: Notifications'
-  'xdg-utils: Open links, files, etc'
-  'xdg-desktop-portal: Screensharing with Wayland'
-)
-options=('!strip')
-conflicts=('equibop-bin')
-source=("$url/archive/refs/tags/v${pkgver}.tar.gz"
-        'equibop.desktop'
-        'equibop.sh')
 sha256sums=('81a5967f696f4ccf218f8b625623f54d043c676024cdcc29a574431d89922d3d'
             '2df1651c56f3ac253b679db81500474f54e9887321db0daa4d3ac2a1ebad5f4d'
             'e14f0ca9fc0bfeacbc0e8acb874c10e759f9077cb1552d179bdef471331a1736')
